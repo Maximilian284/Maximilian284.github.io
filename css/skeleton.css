@@ -200,6 +200,7 @@ p {
   font-weight: bold;
 }
 
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
@@ -397,7 +398,7 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th{
+th {
   padding: 3px 15px;
   text-align: left;
   border-top: 1px solid #E1E1E1;
