@@ -38,6 +38,33 @@ function drawRoundRectBorder(x, y, width, height, radius, lineWidth = "3", color
   ctx.stroke()
 }
 
+function drawRoundRect(x, y, width, height, radius, lineWidth = "3", color = "white"){
+  let ctx = gameArea.context
+  if (width < 2 * radius) radius = width / 2
+  if (height < 2 * radius) radius = height / 2
+  ctx.beginPath()
+  ctx.moveTo(x + radius, y)
+  ctx.arcTo(x + width, y, x + width, y + height, radius)
+  ctx.arcTo(x + width, y + height, x, y + height, radius)
+  ctx.arcTo(x, y + height, x, y, radius)
+  ctx.arcTo(x, y, x + width, y, radius)
+  ctx.closePath()
+  ctx.fillStyle = color
+  ctx.fill()
+}
+
+function drawArrowLeft(x, y, width, height, lineWidth = "5", color = "white"){
+  var ctx = gameArea.context
+  ctx.lineWidth = lineWidth;
+  ctx.strokeStyle = color;
+
+  ctx.beginPath();
+  ctx.moveTo(x + width, y);
+  ctx.lineTo(x, (y*2 + height)/2);
+  ctx.lineTo(x + width, y + height);
+  ctx.stroke();
+}
+
 function buttonClick(event, x, y, width, height) {
   x += gameArea.canvas.offsetLeft
   y += gameArea.canvas.offsetTop

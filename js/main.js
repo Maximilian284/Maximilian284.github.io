@@ -2,6 +2,8 @@ let startPage = true
 let gamePage = false
 let settingsPage = false
 
+let difficulty = 0 // {"0": "Easy", "1": "Medium", "2": "Difficult"}
+
 let gameArea = {
   canvas : document.createElement("canvas"),
   start : function() {
@@ -38,42 +40,12 @@ function update() {
     drawSettingsPage()
   }
 
-  
   // DEBUG
   //drawLine(0, 0, 1280, 720, 1, "white")
   //drawLine(1280, 0, 0, 720, 1, "white")
   //drawLine(640, 0, 640, 720, 1, "white")
   //drawLine(0, 360, 1280, 360, 1, "white")
 }
-
-function drawStartPage(){
-  drawRoundRectBorder(473, 268, 330, 55, 10)
-  writeText("NUOVA PARTITA", "40px", 485, 310)
-  
-  drawRoundRectBorder(489, 350, 303, 55, 10)
-  writeText("IMPOSTAZIONI", "40px", 500, 390)
-}
-
-function drawGamePage(){
-
-}
-
-function drawSettingsPage(){
-
-}
-
-gameArea.canvas.addEventListener("click", (event) => {
-  if (buttonClick(event, 473, 268, 330, 55) && startPage == true){ // NUOVA PARTITA
-    startPage = false
-    gamePage = true
-  }
-
-  if (buttonClick(event, 489, 350, 303, 55) && startPage == true){ // IMPOSTAZIONI
-    startPage = false
-    settingsPage = true
-  }
-
-}) 
 
 document.addEventListener("keydown", (event) => {
 })
