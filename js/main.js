@@ -1,8 +1,15 @@
-let startPage = true
+let startPage = true 
 let gamePage = false
 let settingsPage = false
+let pausePage = false
 
 let difficulty = 0 // {"0": "Easy", "1": "Medium", "2": "Difficult"}
+
+let game = false
+
+let intro = false
+let storyPartOne = false
+let storyPartTwo = false
 
 let gameArea = {
   canvas : document.createElement("canvas"),
@@ -38,6 +45,10 @@ function update() {
 
   if (settingsPage == true){
     drawSettingsPage()
+  }
+
+  if (pausePage == true){
+    drawPausePage()
   }
 
   // DEBUG

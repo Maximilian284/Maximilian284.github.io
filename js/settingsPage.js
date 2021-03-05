@@ -1,7 +1,7 @@
 function drawSettingsPage(){
   drawArrowLeft(20, 20, 25, 50)
 
-  writeText("Difficolta:", "35px", 565, 200)
+  writeText("Difficolta':", "35px", 562, 200)
 
   if (difficulty == 0){
     drawRoundRect(553, 256, 170, 38, 10)
