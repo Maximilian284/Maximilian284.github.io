@@ -1,0 +1,471 @@
+<!doctype html>
+
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MCU</title>
+  </head>
+  <body style="background-image: url('./res/img/background-image.jpg')">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-2">
+
+      <div class="container">
+
+        <a class="navbar-brand" href="#">
+          <img src="./res/img/marvel-logo.jpg" alt="Logo" style="width:70px;">
+        </a>
+
+        <div class="collapse navbar-collapse">
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#fase-1">Fase 1</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#fase-2">Fase 2</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#fase-3">Fase 3</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#fase-4">Fase 4</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#serie-tv">Serie TV</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#ordine-cronologico">Ordine Cronologico</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <div class="container bg-light text-black" style="padding-top: 10px; padding-bottom: 40px">
+
+      <h5 class="pt-4" id="fase-1">Fase 1</h5>
+
+      <!--Carousel Phase 1-->
+      <div id="fase-uno-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/iron-man-1.jpg" alt="Iron Man 1" onclick="play('film', 'Iron Man 1')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/l-incredibile-hulk.jpg" alt="L'incredibile Hulk" onclick="play('film', 'L incredibile Hulk')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/thor-1.jpg" alt="Thor 1" onclick="play('film', 'Thor 1')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/iron-man-2.jpg" alt="Iron Man 2" onclick="play('film', 'Iron Man 2')">
+              </div>
+            </div>
+          </div>
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-1.jpg" alt="Capitan America 1" onclick="play('film', 'Capitan America 1')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-1.jpg" alt="Avengers" onclick="play('film', 'Avengers 1')">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#fase-uno-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#fase-uno-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Phase 1 Wrapper-->
+
+      <h5 class="pt-4" id="fase-2">Fase 2</h5>
+
+      <!--Carousel Phase 2-->
+      <div id="fase-due-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/iron-man-3.jpg" alt="Iron Man 3" onclick="play('film', 'Iron Man 3')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/thor-the-dark-world.jpg" alt="Thor: the Dark World" onclick="play('film', 'Thor: the Dark World')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-the-winter-soldier.jpg" alt="Capitan America: the Winter Soldier" onclick="play('film', 'Capitan America: the Winter Soldier')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/guardiani-della-galassia.jpg" alt="Guardiani della Galassia" onclick="play('film', 'Guardiani della Galassia')">
+              </div>
+            </div>
+          </div>
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/avengers-age-of-ultron.jfif" alt="Avengers: Age of Ultron" onclick="play('film', 'Avengers: Age of Ultron')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/ant-man-1.jpg" alt="Ant-Man" onclick="play('film', 'Ant-Man')">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#fase-due-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#fase-due-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Phase 2 Wrapper-->
+
+      <h5 class="pt-4" id="fase-3">Fase 3</h5>
+
+      <!--Carousel Phase 3-->
+      <div id="fase-tre-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-civil-war.jpg" alt="Capitan america: Civil War" onclick="play('film', 'Capitan America: Civil War')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/doctor-strange-1.jpg" alt="Doctor Strange" onclick="play('film', 'Doctor Strange')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/guardiani-della-galassia-vol-2.jpg" alt="Guardiani della Galassia Vol. 2" onclick="play('film', 'Guardiani della Galassia Vol. 2')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/spider-man-homecoming.jpg" alt="Spider-Man: Homecoming" onclick="play('film', 'Spider-Man: Homecoming')">
+              </div>
+            </div>
+          </div>
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/thor-ragnarok.jpg" alt="Thor: Ragnarok" onclick="play('film', 'Thor: Ragnarok')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/black-panther.jpg" alt="Black Panther" onclick="play('film', 'Black Panther')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-infinity-war.jpg" alt="Avengers: Infinity War" onclick="play('film', 'Avengers: Infinity War')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/ant-man-and-the-wasp.jpg" alt="Ant-Man and The Wasp" onclick="play('film', 'Ant-Man and The Wasp')">
+              </div>
+            </div>
+          </div>
+
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-marvel.jpg" alt="Capitan Marvel" onclick="play('film', 'Capitan Marvel')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-endgame.jpg" alt="Avengers: Endgame" onclick="play('film', 'Avengers: Endgame')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/spider-man-far-from-home.jpg" alt="Spider-Man: Far From Home" onclick="play('film', 'Spider-Man: Far From Home')">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#fase-tre-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#fase-tre-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Phase 3 Wrapper-->
+
+      <h5 class="pt-4" id="fase-4">Fase 4</h5>
+
+      <!--Carousel Phase 4-->
+      <div id="fase-quattro-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/black-widow.jpg" alt="Black Widow" onclick="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#fase-quattro-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#fase-quattro-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Phase 4 Wrapper-->
+
+      <h5 class="pt-4" id="serie-tv">Serie TV</h5>
+
+      <!--Carousel Tv Series-->
+      <div id="serie-tv-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/wandavision.jpg" alt="Wandavision" onclick="setTvSerie('Wandavision')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/the-falcon-and-the-winter-soldier.jpeg" alt="The Falcon and The Winter Soldier" onclick="setTvSerie('The Falcon and The Winter Soldier')">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#serie-tv-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#serie-tv-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Tv Series Wrapper-->
+
+      <h5 class="pt-4" id="ordine-cronologico">Film - Ordine Cronologico</h5>
+
+      <!--Carousel Phase 4-->
+      <div id="ordine-cronologico-carousel" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-1.jpg" alt="Capitan America 1" onclick="play('film', 'Capitan America 1')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-marvel.jpg" alt="Capitan Marvel" onclick="play('film', 'Capitan Marvel')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/iron-man-1.jpg" alt="Iron Man 1" onclick="play('film', 'Iron Man 1')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/iron-man-2.jpg" alt="Iron Man 2" onclick="play('film', 'Iron Man 2')">
+              </div>
+            </div>
+          </div>
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/l-incredibile-hulk.jpg" alt="L'incredibile Hulk" onclick="play('film', 'L incredibile Hulk')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/thor-1.jpg" alt="Thor 1" onclick="play('film', 'Thor 1')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-1.jpg" alt="Avengers" onclick="play('film', 'Avengers 1')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/iron-man-3.jpg" alt="Iron Man 3" onclick="play('film', 'Iron Man 3')">
+              </div>
+            </div>
+          </div>
+
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/thor-the-dark-world.jpg" alt="Thor: the Dark World" onclick="play('film', 'Thor: the Dark World')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-the-winter-soldier.jpg" alt="Capitan America: the Winter Soldier" onclick="play('film', 'Capitan America: the Winter Soldier')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/guardiani-della-galassia.jpg" alt="Guardiani della Galassia" onclick="play('film', 'Guardiani della Galassia')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/guardiani-della-galassia-vol-2.jpg" alt="Guardiani della Galassia Vol. 2" onclick="play('film', 'Guardiani della Galassia Vol. 2')">
+              </div>
+            </div>
+          </div>
+
+          <!--Fourth slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/avengers-age-of-ultron.jfif" alt="Avengers: Age of Ultron" onclick="play('film', 'Avengers: Age of Ultron')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/ant-man-1.jpg" alt="Ant-Man" onclick="play('film', 'Ant-Man')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/capitan-america-civil-war.jpg" alt="Capitan america: Civil War" onclick="play('film', 'Capitan America: Civil War')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/black-widow.jpg" alt="Black Widow" onclick="">
+              </div>
+            </div>
+          </div>
+
+          <!--Fifth slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/spider-man-homecoming.jpg" alt="Spider-Man: Homecoming" onclick="play('film', 'Spider-Man: Homecoming')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/doctor-strange-1.jpg" alt="Doctor Strange" onclick="play('film', 'Doctor Strange')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/black-panther.jpg" alt="Black Panther" onclick="play('film', 'Black Panther')">
+              </div>
+
+              <div class="col-md-3">
+                <img class="img-fluid rounded" src="./res/img/thor-ragnarok.jpg" alt="Thor: Ragnarok" onclick="play('film', 'Thor: Ragnarok')">
+              </div>
+            </div>
+          </div>
+
+          <!--Sixth slide-->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-infinity-war.jpg" alt="Avengers: Infinity War" onclick="play('film', 'Avengers: Infinity War')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/ant-man-and-the-wasp.jpg" alt="Ant-Man and The Wasp" onclick="play('film', 'Ant-Man and The Wasp')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/avengers-endgame.jpg" alt="Avengers: Endgame" onclick="play('film', 'Avengers: Endgame')">
+              </div>
+
+              <div class="col-md-3 clearfix d-none d-md-block">
+                <img class="img-fluid rounded" src="./res/img/spider-man-far-from-home.jpg" alt="Spider-Man: Far From Home" onclick="play('film', 'Spider-Man: Far From Home')">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#ordine-cronologico-carousel" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#ordine-cronologico-carousel" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!--/.Carousel Phase 4 Wrapper-->
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="./js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
