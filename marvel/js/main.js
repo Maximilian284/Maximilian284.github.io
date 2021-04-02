@@ -39,7 +39,7 @@ let dict = {
     "The_Falcon_and_The_Winter_Soldier" : {
       "episodio 01x01" : "https://drive.google.com/file/d/15iVRdiBOgQlnnSW1CuqakTORA__M-Y62/preview",
       "episodio 01x02" : "https://drive.google.com/file/d/1gEuOCy2stfO06qu61ypzjwO6FVz1sZRU/preview",
-      "episodio 01x03" : "",
+      "episodio 01x03" : "https://drive.google.com/file/d/1k2-_EcP2ogHcmInl-urfSFKJxDXA7NPj/preview",
       "episodio 01x04" : "",
       "episodio 01x05" : "",
       "episodio 01x06" : ""
