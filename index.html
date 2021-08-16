@@ -7,10 +7,14 @@
     <title>Lets get drunk</title>
   </head>
 
-  <body>
-    <p id="cardText"></p>
-    <p id="cardPenitence"></p>
-    <button onclick="next()">Avanti</button>
+  <body onload="next()">
+    <div class="center">
+      <p id="cardText"></p>
+      <p id="cardPenitence"></p>
+      <div class="center" style="border: 0px">
+        <button onclick="next()" class="big-btn center-btn">Avanti</button>
+      </div>
+    </div>
     <p style="visibility: hidden">ù</p>
 
     <script type="text/javascript" src="./js/list.js"></script>

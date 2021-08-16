@@ -1,0 +1,36 @@
+p, button {
+  font-size: 40px;
+}
+
+p{
+  padding-left:5%;
+  padding-right:5%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px
+  width: 100%;
+}
+
+.big-btn {
+  width: 160px;
+  height: 80px;
+}
+
+.center-btn{
+  margin: auto;
+  width: 100%;
+  border: auto;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  height: 70%;
+  border: 3px solid black;
+  padding: 10px;
+}
