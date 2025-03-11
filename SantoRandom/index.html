@@ -27,9 +27,18 @@
         </h2>
     </div>
 
-    <div class="mb-10 md:mb-12 lg:mb-16 flex items-center justify-center">
+    <div class="mb-2 md:mb-[10px] lg:mb-[14px] flex items-center justify-center">
         <button id="bestemmia-btn" class="text-center tracking-wider font-bold px-5 py-2 text-lg bg-blue-600 rounded-full text-gray-200 md:text-xl md:px-6 md:py-3 lg:text-2xl lg:px-7 lg:py-4 hover:bg-blue-500 hover:text-gray-100">INVOCA</button>
     </div>
+
+    <div class="mb-10 md:mb-12 lg:mb-16 flex items-center justify-center">
+        <label class="inline-flex items-center cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" onclick="godOnly = !godOnly">   
+            <span class="text-sm text-md md:text-md lg:text-lg text-gray-400">God only</span>
+            <div checked class="ms-1 relative w-9 h-5 md:w-11 md:h-6 md:after:h-5 md:after:w-5 lg:ms-2 lg:w-[52px] lg:h-7 lg:after:h-6 lg:after:w-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600"></div>
+        </label>
+    </div>
+    
 
     <p id="bestemmia-text" class="animate__animated text-center text-2xl md:text-3xl lg:text-4xl uppercase font-bold tracking-wide pl-1 pr-1"></p>
     

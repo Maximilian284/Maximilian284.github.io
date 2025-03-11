@@ -1,5 +1,6 @@
 const text = document.getElementById("bestemmia-text")
 const button = document.getElementById("bestemmia-btn")
+let godOnly = false
 
 button.addEventListener("click", () => {
     let timeout = 1000
@@ -53,9 +54,9 @@ const cambiaAggettivoFemminile = (aggettivo) => {
 };
 
 const bestemmiaGenerator = () => {
-    const soggetto = soggetti[Math.floor(Math.random() * soggetti.length)];
-    let aggettivo = aggettivi[Math.floor(Math.random() * aggettivi.length)];
+    const soggetto = godOnly ? "Dio" : soggetti[Math.floor(Math.random() * soggetti.length)];
 
+    let aggettivo = aggettivi[Math.floor(Math.random() * aggettivi.length)];
     if (soggettiFemminili.includes(soggetto)) {
         aggettivo = cambiaAggettivoFemminile(aggettivo);
     }
